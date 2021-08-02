@@ -10,4 +10,4 @@ RUN pip3 install tensorflow==2.4.1
 RUN pip3 install --upgrade tensorflow  
 COPY diabetes_model.h5 /ws/
 COPY web_app.py /ws/
-COPY diabetes_form.html /ws/templates/
+COPY diabetes.html /ws/templates/

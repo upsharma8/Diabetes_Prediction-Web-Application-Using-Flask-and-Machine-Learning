@@ -19,7 +19,7 @@ body,div, form,input {
       font-size: 14px;
       color: #666;
       line-height: 22px;
- }
+      }
 
   form{
       width: 90%;
@@ -38,8 +38,8 @@ body,div, form,input {
 .banner {
       position: relative;
       height: 300px;
-      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2h5jHrpWDjzpKW9Czd6alUxtTMjeie-b-vg&usqp=CAU");
-background-size: cover;
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2h5jHrpWDjzpKW9Czd6alUxtTMjeie-b-vg&usqp=CAU");  
+      background-size: cover;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -57,7 +57,7 @@ input {
       margin-bottom: 10px;
       border: 1px solid #ccc;
       border-radius: 3px;
- }
+      }
  input {
       width: calc(100% - 10px);
       padding: 5px;
@@ -77,6 +77,7 @@ input {
 <label for="pregnancies"><b>Pregnancies</b><span>*</span></label>
   <input type="number" step="any" name="x1" required/>
 </div>
+
 <div class="item">
 <label for="glucose"><b>Glucose</b></label>
  <input type="number" step="any" name="x2" required/>
@@ -95,4 +96,37 @@ input {
 <label for="insulin"><b>Insulin</b></label>
  <input type="number" step="any" name="x5" required/>
 </div>
+
+
+<div class="item">
+<label for="bmi"><b>BMI</b> </label>
+<input type="number" step="any"  name="x6" required/>
+</div>
+
+<div class="item">
+<label for="diabetes"><b>DiabetesPedigreeFunction</b></label>
+ <input type="number" step="any" name="x7" />
+
+</div>
+<div class="item">
+<label for="age"><b>Age</b></label>
+ <input type="number" step="any" name="x8"/>
+</div>
+
+</div>
+
+<div class="submit">
+<input type="submit">
+</input>
+</div>
+
+
+
+
+
+</body>
+
+</html>
+
+
 
