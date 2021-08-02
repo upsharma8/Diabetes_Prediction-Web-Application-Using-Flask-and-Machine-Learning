@@ -16,7 +16,7 @@ def home():
 
 @app.route("/output",methods=["GET"])
 def predict():
-    m=load_model("diabetes_model.h5")
+    
     a1=(float)(request.values.get("x1"))
     a2=float(request.values.get("x2"))
     a3=float(request.values.get("x3"))
@@ -32,4 +32,4 @@ def predict():
     else:
         return("Diabetes is predicted for you")   
 
-app.run(host="172.17.0.2",debug=True,port=5000)
+app.run(host="172.17.0.2",debug=True,port=5001)
